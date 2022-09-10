@@ -1,0 +1,37 @@
+.product-card {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    height: 500px;
+    width: 330px;
+    overflow: hidden;
+    justify-self: center;
+}
+
+.product-card img {
+    height: 300px;
+    width: 330px;
+    transition: .3s;
+}
+
+.product-info {
+    padding: 10px 20px;
+}
+
+.product-info h3 {
+    font-size: 1.2rem;
+}
+
+.product-info div small {
+    font-size: 1rem;
+}
+
+.product-info button {
+    height: 50px;
+    display: block;
+    width: 250px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 auto;
+}
